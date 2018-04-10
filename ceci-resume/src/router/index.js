@@ -13,7 +13,7 @@ export default new Router({
       component: Cover
     },
     {
-      path: '/',
+      path: '/animation',
       name: 'Animation',
       component: Animation
     }

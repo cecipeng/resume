@@ -7,7 +7,7 @@
       </div>
       <div class="resume-cover__ctrl">
         <a href="###" class="resume-cover__previewbtn">查看xxx</a>
-        <a href="###" class="resume-cover__animationbtn">动画<span class="tip">首次浏览建议查看动画哟~</span></a>
+        <router-link tag='a' to='/animation' class="resume-cover__animationbtn">动画<span class="tip">首次浏览建议查看动画哟~</span></router-link>
       </div>
     </div>
   </div>

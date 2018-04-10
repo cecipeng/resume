@@ -1,0 +1,13 @@
+.resume-animate {
+  $side-width: unit(400);
+
+  height: 100%;
+  padding-left: $side-width;
+  &__codebox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: $side-width;
+  }
+}

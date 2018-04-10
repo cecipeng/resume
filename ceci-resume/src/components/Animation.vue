@@ -1,24 +1,22 @@
 <template>
-  <div class="resume-cover">
-    <div class="resume-cover__box">
-      <div class="resume-cover__header">
-        <span class="resume-cover__head"><img src="" alt=""></span>
-        <P class="resume-cover__title">XXXXXXX</P>
-      </div>
-      <div class="resume-cover__ctrl">
-        <a href="###" class="resume-cover__previewbtn">查看xxx</a>
-        <a href="###" class="resume-cover__animationbtn">动画<span class="tip">首次浏览建议查看动画哟~</span></a>
-      </div>
+  <div class="resume-animate">
+    <div class="resume-animate__codebox">
+      {{msg.name}}
+    </div>
+    <div class="resume-animate__showbox">
+      2
     </div>
   </div>
 </template>
 
 <script>
+import baseInfor from '../assets/data/baseInfor.js'
+
 export default {
   name: 'Cover',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: baseInfor
     }
   }
 }
